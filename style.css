@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.wrapper {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* Header Nav */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.header a:hover {
+    border-bottom: 2px black solid;
+}
+
+.header ul {
+    display: flex; 
+}
+
+.header ul li {
+    padding: 0 12px;
+}
+
+.header .left-logo {
+    width: 110px;
+    height: 100%;
+}
+
+.header .center-nav {
+    list-style: none;
+    flex: 1;
+
+}
+
+.header .right-nav {
+    list-style: none;
+}
+
+
+/* Showcase */
+
+.showcase {
+    background: url(img/showcase.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
+
+.showcase-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 35px;
+}
+
+.showcase-inner p {
+    padding-bottom: 20px;
+}
+
+.showcase-inner a {
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.showcase-inner a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.showcase-inner a i {
+    padding-left: 5px;
+}
+
+
+/* Cards-1 */
+
+.cards-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+
+.card-1 img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.card-1 a {
+    color: #0067Ba;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-1 a i {
+    padding-left: 5px;
+}
+
+.card-1 a:hover i {
+    padding-left: 10px;
+}
+
+
+/* Xbox */
+
+
+.xbox {
+    background: url(img/xbox.png) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    
+}
+
+.xbox-inner {
+    width: 35%;
+    padding-left: 20px;
+    height: 75%;
+}
+
+.xbox-inner a {
+    background:black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.xbox-inner p {
+    padding-bottom: 20px;
+}
+
+.xbox-inner a i {
+    padding-left: 5px;
+}
+
+.xbox-inner a:hover {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+/* Cards-2 */
+
+.cards-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card-2 img {
+    width: 100%;
+}
+
+.card-2 h3 {
+    padding-top: 10px;
+}
+
+.card-2 a {
+    color: #0067Ba;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.card-2 i {
+    padding-left: 5px;
+}
+
+.card-2 a:hover i {
+    padding-left: 10px;
+}
+
+
+/* Carbon Section */
+
+.carbon {
+    background: url(img/carbon.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.carbon-inner {
+    width: 55%;
+    padding-left: 20px;
+}
+
+.carbon-inner h2 {
+    padding: 5px 0;
+}
+
+.carbon-inner p {
+    padding-bottom: 20px;
+}
+
+.carbon-inner a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 12px 15px;
+    font-weight: bold;
+
+}
+
+.carbon-inner i {
+    padding-left: 5px;
+}
+
+.carbon-inner a:hover {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+
+/* Follow Section */
+
+.follow {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.follow img {
+    padding: 0 15px;
+}
+
+
+/* Bottom Nav */
+
+.bottom-nav {
+    background: #f2f2f2;
+}
+
+
+.links {
+    width: 1100px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 50px 0;
+}
+
+.links-section h4 {
+    color: #616161;
+}
+
+.links-section ul {
+    list-style: none;
+    
+}
+
+.links-section ul li {
+    padding: 8px 0;
+}
+
+.links-section ul li a {
+    color: #262626;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    padding: 30px 0;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+footer div {
+    font-size: 12px;
+}
+
+footer div i {
+    padding-right: 5px;
+}
+
+footer ul li {
+    padding: 0 18px;
+    font-size: 12px;
+}
+
+footer ul li a {
+    color: #262626;
+    text-decoration: none;
+}
+
+
+
+
